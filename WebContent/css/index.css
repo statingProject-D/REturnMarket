@@ -1,0 +1,84 @@
+/* google font link */
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&family=Cute+Font&display=swap");
+
+/* screen-layout */
+@import "layout/layout.css";
+
+/* 광고 css */
+@import "components/adBox.css";
+
+/* 반응형 css */
+@import "layout/reactive.css";
+
+.btn-group {
+  margin-top: 8%;
+}
+
+.btn {
+  font-size: 45px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px gray;
+  margin: 0 25px;
+  font-family: "Cute Font", cursive;
+  background: white;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #0080ff;
+}
+
+.addAction {
+  color: #0080ff;
+}
+
+.dealDetail {
+  color: #a3daff;
+}
+
+.homeMenu {
+  margin: 90px 0 15px;
+  width: 100%;
+  max-width: 680px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.topBtn {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to top, #0080ff, #fbcac9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.topBtn > i {
+  font-size: 95px;
+  margin-bottom: 10px;
+}
+
+.topBtn__subtitle {
+  font-size: 30px;
+  font-family: "Cute Font", cursive;
+  color: #006fdd;
+  text-shadow: 1px 1px 1px grey;
+}
+
+@media screen and (max-width: 440px) {
+  .addAction,
+  .dealDetail {
+    font-size: 20px;
+  }
+  .homeMenu {
+    margin-top: 25px;
+  }
+  .topBtn > i {
+    font-size: 50px;
+  }
+  .topBtn > p {
+    font-size: 15px;
+  }
+}

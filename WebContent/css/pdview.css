@@ -1,0 +1,215 @@
+/* google font link */
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&family=Cute+Font&display=swap");
+
+/* screen-layout */
+@import "layout/layout.css";
+@import "layout/reactive.css";
+
+.main {
+  justify-content: flex-start;
+  font-family: "Cute Font", cursive;
+}
+
+.product-container,
+.product-info {
+  width: 100%;
+}
+
+.product-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px gray;
+}
+
+img {
+  width: 300px;
+  height: 270px;
+  margin: 8px;
+}
+
+.user-box {
+  width: 100%;
+}
+
+.pdName {
+  color: #03a6ff;
+}
+
+td {
+  font-size: 18px;
+}
+
+td:first-child {
+  background-color: #e1e1e1;
+  text-align: right;
+}
+
+#startDay,
+#endDay {
+  width: 50%;
+  display: inline;
+}
+
+.product-name {
+  text-align: center;
+  font-size: 25px;
+}
+
+.gobtn-group {
+  display: flex;
+}
+
+.gobtn-group > button {
+  font-size: 25px;
+  border-radius: 5px;
+}
+
+.timer {
+  font-size: 14px;
+  padding: 3px 5px;
+  background-color: rgb(248, 228, 248);
+  width: 155px;
+}
+
+.btn-x {
+  font-size: 14px;
+  margin: 1px 5px;
+  border: 1px solid white;
+  box-shadow: 1px 1px 4px #03a6ff;
+}
+
+.modiPd,
+.delPd {
+  margin-left: 30px;
+}
+
+.product-info__detail {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  background-color: white;
+  border-radius: 15px;
+  width: 100%;
+}
+
+.product-info__detail-header {
+  text-align: center;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.card-block {
+  font-size: 28px;
+  border: 1px solid #03a6ff;
+  padding: 25px;
+  box-shadow: 3px 3px 3px #03a6ff;
+}
+
+/* hidden box */
+.directbuy-peoples {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 0;
+  left: -10;
+  width: 800px;
+  height: 100%;
+  display: none;
+}
+
+.bid-container {
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+.fadeinTable {
+  display: block;
+}
+
+.bid-container__header {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 800;
+  color: #03a6ff;
+}
+
+.closeBtn {
+  position: absolute;
+  right: 3%;
+}
+
+.bid-product__name {
+  font-size: 22px;
+  margin: 20px 10px;
+  font-weight: 700;
+}
+
+.bid-table {
+  border: 1px solid #e1e1e1;
+  text-align: center;
+}
+
+td:first-child {
+  text-align: center;
+}
+
+.note-toolbar {
+  z-index: 0;
+}
+
+/* 타임 종료되면 버튼 사라지기 */
+.hiddenBtn {
+  display: none;
+}
+
+/* 경매 종료시 블락 */
+.fin-bid__container {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 93.5vh;
+  top: 0%;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+}
+
+.fin-bid__title {
+  font-size: 60px;
+  color: white;
+}
+
+.fin-bid__show {
+  visibility: visible;
+}
+
+/* summernote header clear*/
+.note-toolbar {
+  display: none;
+}
+
+@media screen and (max-width: 550px) {
+  .product-info {
+    flex-direction: column;
+  }
+
+  .img {
+    width: 200px;
+  }
+
+  .directbuy-peoples {
+    max-width: 100%;
+    width: 100%;
+  }
+}

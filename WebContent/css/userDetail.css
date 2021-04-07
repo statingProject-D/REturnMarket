@@ -1,0 +1,167 @@
+/* google font link */
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&family=Cute+Font&display=swap");
+
+@import "layout/layout.css";
+@import "layout/reactive.css";
+
+.main {
+  font-family: "Cute Font", cursive;
+}
+
+.userpage {
+  border: 3px solid #0080ff;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 40px 0;
+  max-width: 500px;
+  width: 100%;
+  padding: 20px;
+  box-shadow: 2px 2px 1em #0080ff;
+  background-color: #efefef;
+}
+
+.user-detail {
+  border-radius: 15px;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+
+.user-info__container {
+  margin-left: 10px;
+  padding: 3px;
+  font-size: 30px;
+}
+
+.user-id__hello {
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.user_id {
+  color: #0080ff;
+}
+
+.user-email,
+.user-phone {
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 18px;
+  margin: 0 10px;
+}
+
+/* grade */
+.userGrade__tell {
+  font-size: 25px;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+@keyframes colorChange {
+  0% {
+    color: #f7cac9;
+  }
+  50% {
+    color: #92a8d1;
+  }
+  100% {
+    color: #f7cac9;
+  }
+}
+
+.grade {
+  background-color: white;
+  border-radius: 30px;
+  text-align: center;
+  padding: 3px;
+  font-size: 40px;
+  margin: 15px 0;
+  animation: colorChange 6s linear infinite;
+}
+
+.myBuy-list {
+  border-radius: 15px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+  font-size: 25px;
+  list-style: none;
+}
+
+.deal-list,
+.like-list {
+  color: #e694d4;
+  text-align: center;
+}
+
+.user-detail__option > ul {
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  text-align: center;
+  font-size: 23px;
+}
+
+.user-detail__option li {
+  border-radius: 15px;
+  background-color: white;
+  font-size: 25px;
+  margin: 10px 0;
+  padding: 10px 0;
+  color: rgb(250, 114, 114);
+}
+
+.arrow {
+  float: right;
+  margin-right: 10px;
+  transform: translateY(3px);
+}
+
+.myupload-product {
+  display: flex;
+  justify-content: space-between;
+}
+
+.my-list {
+  background-color: white;
+  border-radius: 15px;
+  width: 100%;
+  margin: 5px;
+  text-align: center;
+  padding: 10px;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 440px) {
+  .userpage {
+    padding: 25px 5px;
+  }
+
+  .user-id__hello {
+    font-size: 28px;
+  }
+
+  .user-phone,
+  .user-email {
+    font-size: 22px;
+  }
+
+  .grade {
+    font-size: 30px;
+  }
+
+  .myBuy-list {
+    font-size: 16px;
+  }
+
+  .my-list {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.join {
+  max-width: 600px;
+  width: 100%;
+}
+
+.join-form {
+  border-radius: 15px;
+  padding: 35px;
+}
+
+.row {
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.form-control {
+  margin-bottom: 15px;
+}
+
+.btn-group {
+  display: flex;
+  margin-top: 15px;
+}
+
+.btn {
+  color: white;
+  margin: 15px;
+}

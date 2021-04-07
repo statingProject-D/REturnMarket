@@ -1,0 +1,41 @@
+/* google font link */
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&family=Cute+Font&display=swap");
+
+@import "layout/layout.css";
+@import "layout/reactive.css";
+
+.reqeusterInfo-container {
+  font-family: "Cute Font", cursive;
+  border: 3px solid #0080ff;
+  border-radius: 15px;
+  background: white;
+  padding: 25px;
+  text-align: center;
+  margin-top: 25px;
+  box-shadow: 1px 1px 10px #0080ff, 1px 1px 2px #0080ff, 1px 1px 10px #0080ff;
+}
+
+.infomation {
+  font-size: 40px;
+  color: #0080ff;
+  text-shadow: 1px 1px 5px #03a6ff;
+  font-weight: 600;
+}
+
+.infomation__sub {
+  font-size: 30px;
+  font-style: italic;
+}
+
+.requester-info {
+  font-size: 22px;
+}
+
+.requester-info > span {
+  color: #03a6ff;
+}
+
+.fin-word {
+  font-size: 17px;
+  color: #0080ff;
+}

@@ -1,0 +1,39 @@
+/* google font link */
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&family=Cute+Font&display=swap");
+
+@import "layout/layout.css";
+@import "layout/reactive.css";
+
+.main {
+  justify-content: center;
+  font-family: "Cute Font", cursive;
+}
+
+.uploadQna-form {
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 25px 0;
+  border: 3px solid #f7cac9;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 1px 1px 10px #f7cac9, 1px 1px 2px #f7cac9, 1px 1px 10px #f7cac9;
+  background-color: white;
+}
+
+.card-header {
+  display: none;
+}
+
+.btn-group {
+  width: 100%;
+  display: flex;
+}
+
+.btn-default {
+  background: white;
+  border: 1px solid #e1e1e1;
+}

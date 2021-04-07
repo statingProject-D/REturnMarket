@@ -1,0 +1,38 @@
+@import "join.css";
+
+.modiForm {
+  font-family: "Cute Font", cursive;
+  background-color: white;
+  border: 3px solid #f7cac9;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 1px 1px 10px #f7cac9, 1px 1px 2px #f7cac9, 1px 1px 10px #f7cac9;
+  width: auto;
+  margin: 40px;
+  font-size: 22px;
+  width: 100%;
+  max-width: 450px;
+}
+
+.modiId,
+.reset {
+  border: 2px solid #f7cac9;
+  border-radius: 15px;
+  margin: 5px 15px;
+  font-size: 18px;
+  width: 80px;
+}
+
+.user_id {
+	color: #03a6ff;
+	font-size: 28px;
+	font-style: italic;
+}
+
+@media screen and (max-width: 440px) {
+  /* joinForm */
+  .modiForm {
+    max-width: 280px;
+    width: 100%;
+  }
+}

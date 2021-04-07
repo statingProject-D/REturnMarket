@@ -1,0 +1,13 @@
+.logo {
+  padding: 5px;
+  text-align: center;
+}
+
+.logo-title {
+  font-family: "Crete Round", serif;
+  font-weight: 400;
+  font-size: 50px;
+  background: linear-gradient(to right, #0080ff, #a3daff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

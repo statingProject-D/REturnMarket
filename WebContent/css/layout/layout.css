@@ -1,0 +1,17 @@
+@import "screen.css";
+@import "footer.css";
+@import "nav.css";
+
+/* 검색창 css */
+@import "search-bar.css";
+
+/* 로고 css */
+@import "../components/logo.css";
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}

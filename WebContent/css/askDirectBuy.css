@@ -1,0 +1,54 @@
+/* google font link */
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&family=Cute+Font&display=swap");
+
+@import "layout/layout.css";
+@import "layout/reactive.css";
+
+.askDirect-container {
+  border: 3px solid #f7cac9;
+  font-family: "Cute Font", cursive;
+  margin: 30px 0;
+  border-radius: 15px;
+  background: white;
+  padding: 30px;
+  box-shadow: 1px 1px 10px #f7cac9, 1px 1px 2px #f7cac9, 1px 1px 10px #f7cac9;
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+}
+
+.askDirect-title {
+  font-size: 30px;
+  font-style: italic;
+  text-shadow: 1px 1px 5px #f7cac9;
+}
+
+.rows {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  outline: none;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+.col-9 {
+  border: 1px solid #f7cac9;
+}
+
+.btn {
+  border: 2px solid #f7cac9;
+  border-radius: 15px;
+  margin: 5px 15px;
+  font-size: 18px;
+  width: 80px;
+}
+
+/* summernote header clear*/
+.note-toolbar {
+  display: none;
+}

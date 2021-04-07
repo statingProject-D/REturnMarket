@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.main {
+  max-width: 600px;
+  width: 100%;
+}
+
+.login-form {
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.login__title {
+  color: gray;
+  margin-bottom: 15px;
+}
+
+input {
+  margin-top: 15px;
+}
+
+.joinTag {
+  float: right;
+  margin-top: 15px;
+  text-decoration: none;
+}

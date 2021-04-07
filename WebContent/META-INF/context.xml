@@ -1,0 +1,15 @@
+<!DOCTYPE configuration>
+
+<Context>
+	<Resource name="jdbc/MYSQL"
+	auth="Container"
+	type="javax.sql.DataSource"
+	username="ip20bkc"
+	password="ip20bkc"
+	driverClassName="com.mysql.cj.jdbc.Driver"
+	factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+	url="jdbc:mysql://118.131.179.138:3306/ip20b_kc?serverTimezone=UTC"
+	maxActive="500"
+	maxldle="100"
+	/>
+</Context>

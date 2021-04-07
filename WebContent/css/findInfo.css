@@ -1,0 +1,41 @@
+/* google font link */
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&family=Cute+Font&display=swap");
+
+@import "layout/layout.css";
+@import "layout/reactive.css";
+
+.findInfoForm {
+  font-family: "Cute Font", cursive;
+  margin-top: 45px;
+  background-color: white;
+  border: 3px solid #03a6ff;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 1px 1px 5px #0080ff, 1px 1px 2px #0080ff, 1px 1px 5px #0080ff;
+  width: 400px;
+  font-size: 21px;
+}
+
+label {
+  margin-top: 10px;
+}
+
+.findBtn {
+  margin-top: 15px;
+  width: 100%;
+  border: 1px solid #e1e1e1;
+  font-size: 20px;
+}
+
+.findBtn:hover {
+  background-color: #0080ff;
+  color: white;
+}
+
+@media screen and (max-width: 440px) {
+  /* joinForm */
+  .findInfoForm {
+    max-width: 280px;
+    width: 100%;
+  }
+}

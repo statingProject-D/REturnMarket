@@ -1,0 +1,64 @@
+/* google font link */
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&family=Cute+Font&display=swap");
+
+@import "layout/layout.css";
+@import "layout/reactive.css";
+
+.login__container {
+  font-family: "Cute Font", cursive;
+  margin-top: 45px;
+  background-color: white;
+  border: 3px solid #03a6ff;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 1px 1px 5px #0080ff, 1px 1px 2px #0080ff, 1px 1px 5px #0080ff;
+  width: 400px;
+  font-size: 21px;
+}
+
+.pw {
+  margin-top: 20px;
+}
+
+.askJoin,
+.askInfo {
+  font-size: 16px;
+}
+
+.askJoin {
+  margin-top: 10px;
+}
+
+.loginBtn {
+  width: 100%;
+  border: 1px solid #e1e1e1;
+  font-size: 20px;
+}
+
+.connect-login__btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginBtn__kakao,
+.loginBtn__naver img {
+  display: inline;
+  height: 32px;
+  width: 160px;
+  padding: 0;
+  margin: 5px;
+}
+
+@media screen and (max-width: 440px) {
+  /* joinForm */
+  .login__container {
+    max-width: 380px;
+    width: 100%;
+  }
+
+  .loginBtn__kakao,
+  .loginBtn__naver img {
+    width: 105px;
+  }
+}

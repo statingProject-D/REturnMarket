@@ -1,0 +1,22 @@
+.footer {
+  background-color: rgba(163, 163, 163, 0.48);
+  max-width: 800px;
+  width: 100%;
+  margin-bottom: 65px;
+  font-family: "Cute Font", cursive;
+  padding: 10px;
+}
+
+.team-info {
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+.i-multi {
+  color: purple;
+}
+
+.fa-github {
+  color: black;
+  font-size: 20px;
+}

@@ -1,0 +1,95 @@
+/* google font link */
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&family=Cute+Font&display=swap");
+
+@import "layout/layout.css";
+@import "layout/reactive.css";
+
+.form__title {
+  margin-bottom: 15px;
+}
+
+.joinForm {
+  font-family: "Cute Font", cursive;
+  background-color: white;
+  border: 3px solid #03a6ff;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 1px 1px 5px #0080ff, 1px 1px 2px #0080ff, 1px 1px 5px #0080ff;
+  width: auto;
+  margin: 40px;
+  font-size: 22px;
+  width: 100%;
+  max-width: 450px;
+}
+
+table {
+  width: 380px;
+}
+
+.td-left {
+  width: 120px;
+  text-align: center;
+}
+
+.id-form {
+  display: flex;
+}
+
+.idChkBtn {
+  width: 50px;
+  font-size: 15px;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+}
+
+.roadAddress,
+.detailAddress {
+  width: 100%;
+  margin: 1px 0;
+}
+
+.btn-box {
+  text-align: center;
+}
+
+.createId,
+.reset {
+  border: 2px solid #1ec0ff;
+  border-radius: 15px;
+  margin: 5px 15px;
+  font-size: 18px;
+  width: 80px;
+}
+
+@media screen and (max-width: 440px) {
+  /* joinForm */
+  .joinForm {
+    max-width: 280px;
+  }
+
+  table {
+    max-width: 320;
+    width: 260;
+  }
+
+  .td-left {
+    width: 50px;
+    font-size: 12px;
+  }
+
+  .td-right {
+    max-width: 180px;
+  }
+
+  .addr-inline__group {
+    display: flex;
+  }
+
+  .addressNum {
+    width: 80px;
+  }
+
+  .addressBtn {
+    font-size: 14px;
+  }
+}

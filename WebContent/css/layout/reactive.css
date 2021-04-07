@@ -1,0 +1,43 @@
+@media screen and (max-width: 440px) {
+  /* logo */
+  .logo-title {
+    font-size: 30px;
+  }
+
+  /* search-bar */
+  .search-bar {
+    text-overflow: ellipsis;
+  }
+
+  /* hidden-input */
+  .hidden-logo {
+    padding-top: 25px;
+  }
+  .hidden-logo-title {
+    font-size: 13px;
+  }
+  .hidden-search-bar {
+    font-size: 12px;
+    text-overflow: ellipsis;
+  }
+
+  /* footer */
+  .team-info {
+    font-size: 14px;
+  }
+
+  /* nav */
+  .nav-icons a {
+    transform: translateX(0px);
+  }
+  .upload,
+  .nav-icons > a > i,
+  .nav-icons > a > p {
+    font-size: 13px;
+  }
+  .circle-bg__sm {
+    width: 60px;
+    height: 60px;
+    transform: translateY(-25px);
+  }
+}

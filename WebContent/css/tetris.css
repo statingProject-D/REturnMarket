@@ -1,0 +1,17 @@
+canvas {
+  margin-top: 35px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.option-box {
+  position: fixed;
+  top: 0;
+  right: 15px;
+  font-size: 26px;
+}
+
+.key-box {
+  font-size: 25px;
+  font-weight: 600;
+}

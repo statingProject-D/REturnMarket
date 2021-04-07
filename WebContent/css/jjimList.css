@@ -1,0 +1,33 @@
+/* google font link */
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&family=Cute+Font&display=swap");
+
+@import "layout/layout.css";
+@import "layout/reactive.css";
+
+.jjim-container {
+  border: 3px solid #f7cac9;
+  font-family: "Cute Font", cursive;
+  margin: 30px 0;
+  border-radius: 15px;
+  background: white;
+  padding: 30px;
+  box-shadow: 1px 1px 10px #f7cac9, 1px 1px 2px #f7cac9, 1px 1px 10px #f7cac9;
+  width: 100%;
+  text-align: center;
+  overflow: auto;
+}
+
+.jjim-title {
+  font-weight: 700;
+  font-size: 30px;
+  font-style: italic;
+  text-shadow: 1px 1px 5px #f7cac9;
+}
+
+.delBtn {
+  font-size: 15px;
+  border: none;
+  background-color: rgb(241, 50, 50);
+  border-radius: 5px;
+  color: white;
+}

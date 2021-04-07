@@ -1,0 +1,50 @@
+/* google font link */
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&family=Cute+Font&display=swap");
+
+@import "layout/layout.css";
+@import "layout/reactive.css";
+
+.userDeleteForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  font-family: "Cute Font", cursive;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.label {
+  width: 100%;
+}
+
+.pw-box {
+  width: 100%;
+  display: flex;
+}
+
+.pw__text {
+  display: flex;
+  align-items: center;
+  width: 100px;
+}
+
+.pw::placeholder {
+  font-size: 14px;
+  color: #a8a7a7;
+}
+
+.btn {
+  margin: 15px;
+  border: 1px solid #e1e1e1;
+  width: 60px;
+  height: auto;
+  font-size: 20px;
+}
+
+.delBtn {
+  background-color: #03a6ff;
+  color: white;
+}

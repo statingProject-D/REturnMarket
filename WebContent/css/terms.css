@@ -1,0 +1,50 @@
+/* google font link */
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&family=Cute+Font&display=swap");
+
+@import "layout/layout.css";
+@import "layout/reactive.css";
+
+.terms-box > h2 {
+  text-align: center;
+  font-weight: 600;
+  margin: 25px;
+  text-shadow: 1px 1px 3px gray;
+}
+
+#terms {
+  height: 500px;
+  font-size: 12.5px;
+  color: #4c4c4c;
+  background-color: #f6f6f6;
+  box-shadow: 2px 2px 5px #03a6ff;
+}
+
+.ask__agree-box {
+  text-align: center;
+  margin: 10px;
+  font-size: 16px;
+}
+
+.btn__group {
+  text-align: center;
+}
+
+.btn {
+  width: 100px;
+  margin: 10px;
+  border: 1px solid #e1e1e1;
+  background-color: white;
+}
+
+.goJoin {
+  color: #03a6ff;
+}
+
+.goJoin:hover {
+  background-color: #03a6ff;
+  color: white;
+}
+
+.footer {
+  margin: 0;
+}

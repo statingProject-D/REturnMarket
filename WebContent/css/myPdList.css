@@ -1,0 +1,82 @@
+/* google font link */
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&family=Cute+Font&display=swap");
+
+@import "layout/layout.css";
+@import "layout/reactive.css";
+
+.main {
+  justify-content: flex-start;
+  font-family: "Cute Font", cursive;
+}
+
+.myPdList__title {
+  font-size: 60px;
+  margin: 20px 0;
+  color: line;
+  text-shadow: 1px 1px 5px gray;
+}
+
+@keyframes changeColor {
+  0%,
+  100% {
+    color: blue;
+  }
+  50% {
+    color: rgb(6, 134, 27);
+  }
+}
+
+h5 {
+  font-style: italic;
+  color: blue;
+  font-size: 18px;
+  animation: changeColor 4s linear infinite;
+}
+
+.my-product__list {
+  background: white;
+  padding: 15px;
+  border: 3px solid #03a6ff;
+  border-radius: 15px;
+  max-width: 750px;
+  width: 100%;
+  overflow: auto;
+}
+
+.table {
+  margin: 10px 0;
+  text-align: center;
+}
+
+/* top button */
+.topBtn {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 0;
+  bottom: 15%;
+  background-color: #03a6ff;
+  color: white;
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+}
+
+.linkTag {
+	cursor: pointer;
+}
+
+@media screen and (max-width: 550px) {
+  .main {
+    text-align: center;
+  }
+
+  .my-product__list {
+    font-size: 15px;
+  }
+
+  .table {
+    width: 700px;
+  }
+}

@@ -1,0 +1,45 @@
+package co.REturnMarket.admin.user;
+
+import java.io.PrintWriter;
+import java.util.ArrayList;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import co.REturnMarket.admin.common.Command;
+import co.REturnMarket.admin.user.dao.UserDAO;
+import co.REturnMarket.admin.user.vo.UserVo;
+
+public class UserInfo implements Command {
+	public String exec(HttpServletRequest request, HttpServletResponse response) throws Exception {
+		HttpSession session = request.getSession();
+		if(session.getAttribute("id") == null) {
+			response.setContentType("text/html;charset=UTF-8");
+			PrintWriter script = response.getWriter();
+			script.println("<script>");
+			script.println("alert('로그인 이후 이용가능 합니다.');");
+			script.println("location.href='login.ad';");
+			script.println("</script>");
+			script.close();
+		}
+		
+		UserDAO userDao = new UserDAO();
+		ArrayList<UserVo> voList = userDao.selectUser();
+		
+		if(voList == null) {
+			response.setContentType("text/html;charset=UTF-8");
+			PrintWriter script = response.getWriter();
+			script.println("<script>");
+			script.println("alert('이용자가 존재하지 않습니다.');");
+			script.println("history.back();");
+			script.println("</script>");
+			script.close();
+		}
+		
+		request.setAttribute("page", "/WEB-INF/views/user/userInfo.jsp");
+		request.setAttribute("voList", voList);
+		
+		return "main/main.jsp";
+	}
+}

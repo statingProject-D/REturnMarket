@@ -1,0 +1,45 @@
+/* google font link */
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&family=Cute+Font&display=swap");
+
+@import "layout/layout.css";
+@import "layout/reactive.css";
+
+.changePwForm {
+  margin: 40px;
+  width: 100%;
+  padding: 25px;
+  max-width: 480px;
+  border-radius: 25px;
+  font-size: 22px;
+  font-family: "Cute Font", cursive;
+  background-color: white;
+  border: 3px solid #f7cac9;
+  box-shadow: 1px 1px 10px #f7cac9, 1px 1px 2px #f7cac9, 1px 1px 10px #f7cac9;
+}
+
+.change-title {
+  font-size: 26px;
+  font-style: italic;
+}
+
+.user_id {
+  color: #0080ff;
+}
+
+.changeForm-group {
+  margin-top: 25px;
+}
+
+.changeForm-group__btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn {
+  border: 2px solid #f7cac9;
+  border-radius: 15px;
+  margin: 5px 15px;
+  font-size: 18px;
+  width: 80px;
+}

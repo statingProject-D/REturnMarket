@@ -1,0 +1,53 @@
+/* google font link */
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&family=Cute+Font&display=swap");
+
+/* screen-layout */
+@import "layout/layout.css";
+@import "layout/reactive.css";
+
+.main {
+  justify-content: flex-start;
+  font-family: "Cute Font", cursive;
+}
+
+.notice-view__title {
+  font-size: 45px;
+  color: rgb(55, 99, 182);
+  text-shadow: 2px 1px gray;
+}
+
+.notice-view {
+  width: 100%;
+  max-width: 700px;
+  background: white;
+  margin: 30px 0;
+  padding: 15px;
+  border-radius: 15px;
+  border: 3px solid #03a6ff;
+  box-shadow: 1px 1px 5px #0080ff, 1px 1px 2px #0080ff, 1px 1px 5px #0080ff;
+}
+
+td {
+  font-size: 18px;
+}
+
+.td__left {
+  text-align: center;
+}
+
+.notice__title {
+  text-overflow: ellipsis;
+}
+
+.content-sub {
+  margin-top: 30%;
+}
+
+.card-header {
+  display: none;
+}
+
+.btn-group {
+  width: 100%;
+  text-align: center;
+}
