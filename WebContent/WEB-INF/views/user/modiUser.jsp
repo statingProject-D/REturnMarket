@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Modify UserInfo</title>
 <style>
 	.container {
 		margin: 20px;

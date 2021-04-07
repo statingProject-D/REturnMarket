@@ -17,8 +17,17 @@
 	.none {
 		text-align: center;
 	}
+	.search-bar {
+		margin: 5px 0;
+		display: flex;
+	}	
+	.search-bar .search__input {
+		width: 65%;
+		display: inline;
+		margin: 0 15px;
+	}
 </style>
-<title>Insert title here</title>
+<title>Product Infomation</title>
 </head>
 <body>
 	<form action="searchPd.ad" method="post" class="form-control search-bar">

@@ -25,7 +25,7 @@
 		margin: 15px 0;
 	}
 </style>
-<title>Insert title here</title>
+<title>Write Notice</title>
 </head>
 <body>
 	<form action="writeNoticeAction.ad" method="post">

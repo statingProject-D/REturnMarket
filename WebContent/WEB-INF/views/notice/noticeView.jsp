@@ -23,7 +23,7 @@
 		margin: 15px 0;
 	}
 </style>
-<title>Insert title here</title>
+<title>Notice View</title>
 </head>
 <body>
 	<form action="modiNotice.ad?no=${vo.no }" method="post" class="form-control">

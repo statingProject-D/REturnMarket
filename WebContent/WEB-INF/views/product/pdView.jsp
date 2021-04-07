@@ -18,7 +18,7 @@
 		display: none;
 	}
 </style>
-<title>Insert title here</title>
+<title>Product View</title>
 </head>
 <body>
 	<h1>상품정보</h1>

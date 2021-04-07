@@ -18,10 +18,7 @@
    <!--summernote css-->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.12/summernote-bs4.css" rel="stylesheet">
   <link rel="stylesheet" href="css/qnaView.css">
-  <style>
-    
-  </style>
-  <title>Add Product</title>
+  <title>Q&A View</title>
 </head>
 <body>
   <div class="screen">

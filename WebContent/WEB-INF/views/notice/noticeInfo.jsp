@@ -16,8 +16,17 @@
 	.none {
 		text-align: center;
 	}
+	.search-bar {
+		margin: 5px 0;
+		display: flex;
+	}	
+	.search-bar .search__input {
+		width: 65%;
+		display: inline;
+		margin: 0 15px;
+	}
 </style>
-<title>Insert title here</title>
+<title>Notice Info</title>
 </head>
 <body>
 	<a href="writeNoticed.ad" class="btn writeBtn btn-primary">글쓰기</a>

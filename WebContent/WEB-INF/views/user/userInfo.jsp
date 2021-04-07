@@ -5,14 +5,16 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>User Infomation</title>
 <style>
 	.search-bar {
 		margin: 5px 0;
 		display: flex;
 	}	
-	.search__input {
+	.search-bar .search__input {
 		width: 65%;
+		display: inline;
+		margin: 0 15px;
 	}
 	.table {
 		overflow-y: auto;

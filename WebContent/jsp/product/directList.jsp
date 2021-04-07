@@ -18,7 +18,7 @@
    <!--summernote css-->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.12/summernote-bs4.css" rel="stylesheet">
   <link rel="stylesheet" href="css/directList.css">
-  <title>DirectList</title>
+  <title>Direct List</title>
 </head>
 <body>
   <div class="screen">

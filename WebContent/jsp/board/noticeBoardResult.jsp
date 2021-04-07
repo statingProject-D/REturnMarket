@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Insert title here</title>
+<title>Notice BoardResult</title>
 </head>
 <body>
 	<div id="pageList">
