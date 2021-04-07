@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Admin Home</title>
+<title>Admin</title>
 </head>
 <body>
 	<jsp:forward page="main.ad" />
